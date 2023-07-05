@@ -7,7 +7,7 @@
 
 .navbar{
     background-color: #A29F9F;
-    height: 80px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
 .navbar__container{
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 50px;
     z-index: 1;
     width: 100%;
     padding: 0 50px;
@@ -39,13 +39,13 @@
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.1rem;
     display: flex;
     align-items: center;
 }
 
 #logo{
-    width: 40px;
+    width: 30px;
 }
 
 .fa-gem{
@@ -60,43 +60,19 @@
 }
 
 .navbar__item{
-    height: 80px;
+    height: 10px;
+    font-size: 1.2rem;
 }
 
 .navbar__links{
-    color: white;
+    color: rgb(32, 20, 91);
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
-}
-
-.navbar__btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
-    width: 100%;
-}
-
-.button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    background-color: #3d518d;
-    color: #fff;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-    padding: 10px 22px;
-    height: 100%;
-    width: 100%;
-    border-radius: 4px;
+    font-size: .8rem;
 }
 
 .button:hover{
@@ -114,7 +90,7 @@
     .navbar__container{
         display: flex;
         justify-content: space-between;
-        height: 80px;
+        height: 50px;
         z-index: 1;
         width: 100%;
         max-width: 1300px;
@@ -130,7 +106,7 @@
         top: -1000px;
         opacity: 0;
         transition: all 0.5s ease;
-        height: 50vh;
+        height: 30vh;
         z-index: -1;
         background: #131313;
     }
@@ -171,15 +147,6 @@
 
     .navbar__btn{
         padding-bottom: 2rem;
-    }
-
-    .button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 80px;
-        margin: 0;
     }
 
     .navbar__toggle .bar {
