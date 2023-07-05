@@ -5,20 +5,6 @@ The goal of this project is to provide minimalistic django project template that
 
 ### Main features
 
-
-### Existing virtualenv
-
-If your project is already in an existing python3 virtualenv first install django by running
-
-    $ pip install django
-
-And then run the `django-admin.py` command to start the new project:
-
-    $ django-admin.py startproject \
-      --template=https://github.com/nikola-k/django-template/zipball/master \
-      --extension=py,md \
-      <project_name>
-
 # Django
 
 # Getting Started
